@@ -1,0 +1,183 @@
+{
+  "modelId": "000001yvr4",
+  "services": [
+    {
+      "actions": [],
+      "code": "",
+      "description": "",
+      "events": [],
+      "name": "默认服务",
+      "properties": [
+        {
+          "abilityId": 1,
+          "accessMode": "rw",
+          "code": "control",
+          "description": "【必选项】该DP点用于控制电机的开启、暂停、关闭。该DP点枚举值参数不允许修改，不允许增减。其中，continue功能在APP面板无呈现，用于第三方（Google home）开通使用，下发指令后，需要MCU记住上一次的状态，并执行动作，注意，无该功能，无法通过WWGA认证。",
+          "extensions": {
+            "iconName": "icon-dp_power2"
+          },
+          "name": "控制",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "open",
+              "stop",
+              "close",
+              "continue"
+            ]
+          }
+        },
+        {
+          "abilityId": 2,
+          "accessMode": "rw",
+          "code": "percent_control",
+          "description": "如果窗帘电机可以监控窗帘目前的所处位置，例如窗帘现在开了一半，也就是50%，那么可以通过该DP点进行窗帘位置的自定义控制。控制使用该DP点，如果选择了该DP点，必选选择“开启百分比状态显示”，该DP点数值范围值参数不允许修改，不允许增减。",
+          "name": "开启百分比控制",
+          "typeSpec": {
+            "type": "value",
+            "max": 100,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "%"
+          }
+        },
+        {
+          "abilityId": 3,
+          "accessMode": "ro",
+          "code": "percent_state",
+          "description": "该DP点与“开启百分比状态控制”配套使用。该DP点用于显示实际窗帘所处位置。该DP点数值范围值参数不允许修改，不允许增减。",
+          "name": "开启百分比状态",
+          "typeSpec": {
+            "type": "value",
+            "max": 100,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "%"
+          }
+        },
+        {
+          "abilityId": 5,
+          "accessMode": "rw",
+          "code": "control_back",
+          "description": "用于设置电机转向，顺时针，或者逆时针，forward代表顺时针，back代表逆时针",
+          "name": "电机反向",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "forward",
+              "back"
+            ]
+          }
+        },
+        {
+          "abilityId": 7,
+          "accessMode": "ro",
+          "code": "work_state",
+          "description": "【必选项】用于显示电机的当前工作状态。该DP点枚举值参数不允许修改，不允许增减。如需要修改在APP面板中显示的内容，可以前往第四步的拓展中心，多语言管理修改代表值，新增的枚举值所代表的的内容也是在多语言中修改代表值。",
+          "name": "工作状态",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "opening",
+              "closing"
+            ]
+          }
+        },
+        {
+          "abilityId": 11,
+          "accessMode": "ro",
+          "code": "situation_set",
+          "description": "上报该DP点枚举值，以告知APP，该窗帘，100%对应的是全开，还是全关。不上报或者不选择改DP点，则默认100%为全关。",
+          "name": "百分比含义",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "fully_open",
+              "fully_close"
+            ]
+          }
+        },
+        {
+          "abilityId": 12,
+          "accessMode": "ro",
+          "code": "fault",
+          "description": "【必选】设备上报故障值，该DP点枚举值可增减，但不可修改枚举值名称，例如可以删除motor_fault，可以增加其他值，未选则不展示该功能。 如需要修改在APP面板中显示的内容，可以前往第四步的拓展中心，多语言管理修改代表值，新增的枚举值所代表的的内容也是在多语言中修改代表值。",
+          "name": "故障告警",
+          "typeSpec": {
+            "type": "bitmap",
+            "label": [
+              "motor_fault"
+            ],
+            "maxlen": 1
+          }
+        },
+        {
+          "abilityId": 101,
+          "accessMode": "rw",
+          "code": "remote_register",
+          "description": "单击下发on,代表遥控器配对确认，并复位按键",
+          "name": " 遥控器配对模式",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 102,
+          "accessMode": "rw",
+          "code": "reset_limit",
+          "description": "单击下发on,代表所有限位重置，并复位按键",
+          "name": "所有限位重置",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 103,
+          "accessMode": "rw",
+          "code": "up_confirm",
+          "description": "上限位确认 true ，上限位重置false",
+          "name": "上限位确认/重置",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 104,
+          "accessMode": "rw",
+          "code": "middle_confirm",
+          "description": "中限位确认true ，中限位重置false",
+          "name": "中间限位确认/重置",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 105,
+          "accessMode": "rw",
+          "code": "down_confirm",
+          "description": "下限位确认 true，下限位重置false",
+          "name": "下限位确认/重置",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 106,
+          "accessMode": "rw",
+          "code": "motor_mode",
+          "description": "用于设置电机点动或者连动工作模式，point代表点动模式，contiuation代表连动模式",
+          "name": "电机工作模式",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "contiuation",
+              "point"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

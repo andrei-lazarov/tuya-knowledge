@@ -1,0 +1,98 @@
+{
+  "modelId": "fw7isw",
+  "services": [
+    {
+      "actions": [],
+      "code": "",
+      "description": "",
+      "events": [],
+      "name": "默认服务",
+      "properties": [
+        {
+          "abilityId": 1,
+          "accessMode": "ro",
+          "code": "gas_sensor_state",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-huoyan",
+            "attribute": "1280",
+            "trigger": "direct"
+          },
+          "name": "燃气检测状态",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "alarm",
+              "normal"
+            ]
+          }
+        },
+        {
+          "abilityId": 10,
+          "accessMode": "ro",
+          "code": "preheat",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_light2",
+            "attribute": "1024"
+          },
+          "name": "预热",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 11,
+          "accessMode": "ro",
+          "code": "fault",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_warming",
+            "attribute": "1280",
+            "trigger": "direct"
+          },
+          "name": "故障告警",
+          "typeSpec": {
+            "type": "bitmap",
+            "label": [
+              "fault",
+              "serious_fault",
+              "sensor_fault",
+              "probe_fault",
+              "power_fault"
+            ],
+            "maxlen": 5
+          }
+        },
+        {
+          "abilityId": 12,
+          "accessMode": "ro",
+          "code": "lifecycle",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_loop",
+            "attribute": "1024"
+          },
+          "name": "使用寿命",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 13,
+          "accessMode": "rw",
+          "code": "alarm_switch",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-power",
+            "attribute": "1024"
+          },
+          "name": "报警开关",
+          "typeSpec": {
+            "type": "bool"
+          }
+        }
+      ]
+    }
+  ]
+}

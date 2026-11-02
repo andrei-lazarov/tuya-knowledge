@@ -1,0 +1,386 @@
+{
+  "modelId": "e1odxeok",
+  "services": [
+    {
+      "actions": [],
+      "code": "",
+      "description": "",
+      "events": [],
+      "name": "",
+      "properties": [
+        {
+          "abilityId": 1,
+          "accessMode": "ro",
+          "code": "total_forward_energy",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_lightning",
+            "attribute": "1152"
+          },
+          "name": "正向总有功电量",
+          "typeSpec": {
+            "type": "value",
+            "max": 99999999,
+            "min": 0,
+            "scale": 2,
+            "step": 1,
+            "unit": "kW·h"
+          }
+        },
+        {
+          "abilityId": 6,
+          "accessMode": "ro",
+          "code": "phase_a",
+          "description": "1，A相电压，电流及功率\n2，大端模式，HEX格式，共8个字节\n3，单位精度：电压，2字节，单位0.1V。电流，3字节，单位 0.001A 。A相有功功率，3字节，单位0.0001kW\n4，报文格式\n举例：08 80 00 03 E8 00 27 10 表示A相217.6V，A相电流1.000A，A相功率10.000KW\n5，通信逻辑：\n1）用户进面板，主动查询。用户进入面板，面板马上下发0x08到电表，电表上报数据到云平台，面板拿到数据，然后展示。 注：最新WIFI支持。   \n2）电表基于一定周期上报数据。建议：在WIFI模式时，15秒上报一次。NB模式时，1个小时上报一次。",
+          "extensions": {
+            "iconName": "icon-dp_lightning",
+            "attribute": "1152"
+          },
+          "name": "A相电压，电流及功率",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 9,
+          "accessMode": "ro",
+          "code": "fault",
+          "description": "1，告警\n2，大端模式，HEX,4字节\n3，报文格式\n按照完整4个字节,对应的告警位上报告警；bit位，1表示有告警，0表示无告警；如果没用的告警位，补0。高位无定义，也补0；\n举例：0X00 00 00 09,表示当前发生了漏电自检不正常告警和短路告警,无其它告警。\n4，通信逻辑\n只要有1个告警发生，就完整4个字节上报给面板；只要有1个告警关闭，就完整4个字节上报给面板，更新面板显示。",
+          "extensions": {
+            "iconName": "icon-baojing",
+            "attribute": "1152"
+          },
+          "name": "故障告警",
+          "typeSpec": {
+            "type": "bitmap",
+            "label": [
+              "short_circuit_alarm",
+              "surge_alarm",
+              "overload_alarm",
+              "leakagecurr_alarm",
+              "temp_dif_fault",
+              "fire_alarm",
+              "high_power_alarm",
+              "self_test_alarm",
+              "ov_cr",
+              "unbalance_alarm",
+              "ov_vol",
+              "undervoltage_alarm",
+              "miss_phase_alarm",
+              "outage_alarm",
+              "magnetism_alarm",
+              "credit_alarm",
+              "no_balance_alarm"
+            ],
+            "maxlen": 17
+          }
+        },
+        {
+          "abilityId": 11,
+          "accessMode": "rw",
+          "code": "switch_prepayment",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_money",
+            "attribute": "1152"
+          },
+          "name": "预付费功能开关",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 12,
+          "accessMode": "rw",
+          "code": "clear_energy",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_lightning",
+            "attribute": "1152"
+          },
+          "name": "剩余可用电量清零",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 13,
+          "accessMode": "ro",
+          "code": "balance_energy",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_lightning",
+            "attribute": "1152"
+          },
+          "name": "剩余可用电量显示 (kWh)",
+          "typeSpec": {
+            "type": "value",
+            "max": 99999999,
+            "min": 0,
+            "scale": 2,
+            "step": 1,
+            "unit": "kW·h"
+          }
+        },
+        {
+          "abilityId": 14,
+          "accessMode": "rw",
+          "code": "charge_energy",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_money",
+            "attribute": "1152"
+          },
+          "name": "电量充值",
+          "typeSpec": {
+            "type": "value",
+            "max": 999999,
+            "min": 0,
+            "scale": 2,
+            "step": 1,
+            "unit": "kW·h"
+          }
+        },
+        {
+          "abilityId": 16,
+          "accessMode": "rw",
+          "code": "switch",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_power2",
+            "attribute": "1153"
+          },
+          "name": "断路器开关",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 17,
+          "accessMode": "rw",
+          "code": "alarm_set_1",
+          "description": "1，告警阈值使能控制及设置2  \n2，HEX格式，大端模式, 总告警的数量*4字节= 设置告警总长度。\n3，报文格式\n每个告警由4个字节组成，第1个字节（表示该告警存在）；第2个字节（发生此告警时，断路器控制模式（0X01拉闸，0X00不动作只告警）；第3、4字节：设置告警阈值\n举例：0X01 01 00 00 03 01 00 14,表示该断路器支持短路告警，发生该告警时，自动跳闸，阀值补0。支持过载告警，发生该告警时，拉闸动作，动作阀值20KW。无其它告警。\n4，通信逻辑\nA，配网成功后，按照上面的格式，主动上报给云平台，面板知道哪些告警是断路器当前支持的。设置不成功，重新配网再上报。\nB，断路器上电时，也上报一次。\nC，面板根据协议下发告警设置。",
+          "extensions": {
+            "iconName": "icon-dp_warming",
+            "attribute": "1152"
+          },
+          "name": "告警设置1",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 18,
+          "accessMode": "rw",
+          "code": "alarm_set_2",
+          "description": "1，告警阈值使能控制及设置2  \n2，HEX格式，大端模式\n3，报文格式\n每个告警由4个字节组成，第1个字节（表示该告警存在）；第2个字节（发生此告警时，断路器控制模式（0X01拉闸，0X00不动作只告警）；第3、4字节：设置告警阈值\n举例：0X01 01 00 3C 03 01 00 F5,表示该断路器支持过流告警，发生该告警时，拉闸动作，动作阀值60A。支持过压告警，发生该告警时，拉闸动作，动作阀值245V\n4，通信逻辑\nA，配网成功后，按照上面的格式，主动上报给云平台，面板知道哪些告警是断路器当前支持的。设置不成功，重新配网再上报。\nB，断路器上电时，也上报一次。\nC，面板根据协议下发告警设置。",
+          "extensions": {
+            "iconName": "icon-dp_warming",
+            "attribute": "1152"
+          },
+          "name": "告警设置2",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 101,
+          "accessMode": "ro",
+          "code": "no_use",
+          "description": "",
+          "name": "合闸恢复时间（弃用）",
+          "typeSpec": {
+            "type": "value",
+            "max": 99999,
+            "min": 1,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 102,
+          "accessMode": "rw",
+          "code": "recover_cnt",
+          "description": "",
+          "name": "重合闸允许次数",
+          "typeSpec": {
+            "type": "value",
+            "max": 99,
+            "min": 1,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 103,
+          "accessMode": "ro",
+          "code": "temp_current",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_c",
+            "attribute": "4096"
+          },
+          "name": "当前温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 500,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 104,
+          "accessMode": "rw",
+          "code": "recover_enable",
+          "description": "",
+          "name": "重合闸允许使能",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 105,
+          "accessMode": "rw",
+          "code": "countdown_1",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time2",
+            "attribute": "4096"
+          },
+          "name": "倒计时",
+          "typeSpec": {
+            "type": "value",
+            "max": 86400,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "s"
+          }
+        },
+        {
+          "abilityId": 106,
+          "accessMode": "rw",
+          "code": "cycle_time",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "循环定时",
+          "typeSpec": {
+            "type": "string",
+            "maxlen": 255
+          }
+        },
+        {
+          "abilityId": 107,
+          "accessMode": "rw",
+          "code": "leak_delay",
+          "description": "",
+          "name": "合闸恢复时间",
+          "typeSpec": {
+            "type": "value",
+            "max": 99,
+            "min": 1,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 108,
+          "accessMode": "rw",
+          "code": "random_timing",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "随机定时",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 109,
+          "accessMode": "rw",
+          "code": "switch_inching",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_power2",
+            "attribute": "4096"
+          },
+          "name": "点动开关（延时关）",
+          "typeSpec": {
+            "type": "string",
+            "maxlen": 255
+          }
+        },
+        {
+          "abilityId": 119,
+          "accessMode": "rw",
+          "code": "power_on_delay",
+          "description": "",
+          "name": "上电延时通电时间",
+          "typeSpec": {
+            "type": "value",
+            "max": 9999,
+            "min": 1,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 126,
+          "accessMode": "rw",
+          "code": "alarm_set3",
+          "description": "",
+          "name": "告警设置3",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 127,
+          "accessMode": "ro",
+          "code": "status",
+          "description": "",
+          "name": "状态",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "0",
+              "1",
+              "2"
+            ]
+          }
+        },
+        {
+          "abilityId": 134,
+          "accessMode": "rw",
+          "code": "swithc_power_save",
+          "description": "",
+          "name": "继电器上电状态设置",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "0",
+              "1",
+              "2"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
