@@ -1,0 +1,574 @@
+{
+  "modelId": "e1nl80d8",
+  "services": [
+    {
+      "actions": [],
+      "code": "",
+      "description": "",
+      "events": [],
+      "name": "",
+      "properties": [
+        {
+          "abilityId": 2,
+          "accessMode": "rw",
+          "code": "mode",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_mode"
+          },
+          "name": "工作模式",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "Standby",
+              "Anti_forst",
+              "eco",
+              "Comfort",
+              "auto",
+              "on"
+            ]
+          }
+        },
+        {
+          "abilityId": 3,
+          "accessMode": "ro",
+          "code": "work_state",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-zhuangtai"
+          },
+          "name": "工作状态",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "closed",
+              "opened"
+            ]
+          }
+        },
+        {
+          "abilityId": 4,
+          "accessMode": "rw",
+          "code": "temp_set",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-set"
+          },
+          "name": "目标温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 350,
+            "min": 50,
+            "scale": 1,
+            "step": 5,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 5,
+          "accessMode": "ro",
+          "code": "temp_current",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_c"
+          },
+          "name": "当前温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 1000,
+            "min": -300,
+            "scale": 1,
+            "step": 1,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 6,
+          "accessMode": "ro",
+          "code": "battery_percentage",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_battery"
+          },
+          "name": "电池电量",
+          "typeSpec": {
+            "type": "value",
+            "max": 100,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "%"
+          }
+        },
+        {
+          "abilityId": 7,
+          "accessMode": "rw",
+          "code": "child_lock",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_power2"
+          },
+          "name": "童锁",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 9,
+          "accessMode": "rw",
+          "code": "upper_temp",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_temp"
+          },
+          "name": "设置温度上限",
+          "typeSpec": {
+            "type": "value",
+            "max": 350,
+            "min": 200,
+            "scale": 1,
+            "step": 10,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 10,
+          "accessMode": "rw",
+          "code": "lower_temp",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_temp"
+          },
+          "name": "设置温度下限",
+          "typeSpec": {
+            "type": "value",
+            "max": 150,
+            "min": 50,
+            "scale": 1,
+            "step": 10,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 14,
+          "accessMode": "rw",
+          "code": "window_check",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-power",
+            "scope": "fault"
+          },
+          "name": "开窗检测",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 15,
+          "accessMode": "ro",
+          "code": "window_state",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-zhuangtai"
+          },
+          "name": "窗户状态",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "closed",
+              "opened"
+            ]
+          }
+        },
+        {
+          "abilityId": 35,
+          "accessMode": "ro",
+          "code": "fault",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-baojing",
+            "scope": "fault"
+          },
+          "name": "故障告警",
+          "typeSpec": {
+            "type": "bitmap",
+            "label": [
+              "fault_sensor",
+              "fault_motor",
+              "fault_low_batt",
+              "fault_ug_low_batt",
+              "fault_poor_batt"
+            ],
+            "maxlen": 5
+          }
+        },
+        {
+          "abilityId": 47,
+          "accessMode": "rw",
+          "code": "temp_correction",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_loop"
+          },
+          "name": "温度校准",
+          "typeSpec": {
+            "type": "value",
+            "max": 100,
+            "min": -100,
+            "scale": 1,
+            "step": 1,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 102,
+          "accessMode": "rw",
+          "code": "week_program_1",
+          "description": "",
+          "name": "周程序1",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 103,
+          "accessMode": "rw",
+          "code": "week_program_2",
+          "description": "",
+          "name": "周程序2",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 104,
+          "accessMode": "rw",
+          "code": "week_program_3",
+          "description": "",
+          "name": "周程序3",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 105,
+          "accessMode": "rw",
+          "code": "week_program_4",
+          "description": "",
+          "name": "周程序4",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 106,
+          "accessMode": "rw",
+          "code": "week_program_5",
+          "description": "",
+          "name": "周程序5",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 107,
+          "accessMode": "rw",
+          "code": "week_program_6",
+          "description": "",
+          "name": "周程序6",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 108,
+          "accessMode": "rw",
+          "code": "week_program_7",
+          "description": "",
+          "name": "周程序7",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 109,
+          "accessMode": "ro",
+          "code": "mfg_model",
+          "description": "",
+          "name": "机型",
+          "typeSpec": {
+            "type": "string",
+            "maxlen": 255
+          }
+        },
+        {
+          "abilityId": 110,
+          "accessMode": "rw",
+          "code": "motor_thrust",
+          "description": "",
+          "name": "电机推力",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "strong",
+              "middle",
+              "weak"
+            ]
+          }
+        },
+        {
+          "abilityId": 111,
+          "accessMode": "rw",
+          "code": "brightness",
+          "description": "",
+          "name": "屏幕亮度",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "high",
+              "mid",
+              "low"
+            ]
+          }
+        },
+        {
+          "abilityId": 112,
+          "accessMode": "rw",
+          "code": "app_command_timestamp",
+          "description": "",
+          "name": "App命令时间戳",
+          "typeSpec": {
+            "type": "value",
+            "max": 2147483647,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 113,
+          "accessMode": "rw",
+          "code": "screen_orientation",
+          "description": "",
+          "name": "屏幕方向",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "up",
+              "down",
+              "left",
+              "right"
+            ]
+          }
+        },
+        {
+          "abilityId": 114,
+          "accessMode": "rw",
+          "code": "valve_open_degree",
+          "description": "",
+          "extensions": {
+            "trigger": "direct"
+          },
+          "name": "阀开启度",
+          "typeSpec": {
+            "type": "value",
+            "max": 1000,
+            "min": 0,
+            "scale": 1,
+            "step": 10,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 115,
+          "accessMode": "rw",
+          "code": "switch_wrap",
+          "description": "",
+          "name": "开关偏差(仅适用节能模式)",
+          "typeSpec": {
+            "type": "value",
+            "max": 50,
+            "min": 5,
+            "scale": 1,
+            "step": 1,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 116,
+          "accessMode": "ro",
+          "code": "motor_data",
+          "description": "",
+          "name": "电机数据",
+          "typeSpec": {
+            "type": "string",
+            "maxlen": 255
+          }
+        },
+        {
+          "abilityId": 117,
+          "accessMode": "rw",
+          "code": "vacation_duration",
+          "description": "假期时长，单位是天 当开始执行假期模式 时，需要每天递减",
+          "name": "假期时长",
+          "typeSpec": {
+            "type": "value",
+            "max": 364,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 118,
+          "accessMode": "rw",
+          "code": "boost_duration",
+          "description": "",
+          "name": "Boost 模式时长",
+          "typeSpec": {
+            "type": "value",
+            "max": 120,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "分钟"
+          }
+        },
+        {
+          "abilityId": 119,
+          "accessMode": "rw",
+          "code": "comfort_set_temp",
+          "description": "",
+          "name": "舒适模式温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 350,
+            "min": 50,
+            "scale": 1,
+            "step": 5,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 120,
+          "accessMode": "rw",
+          "code": "eco_set_temp",
+          "description": "",
+          "name": "节能模式温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 350,
+            "min": 50,
+            "scale": 1,
+            "step": 5,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 121,
+          "accessMode": "rw",
+          "code": "antifreeze_set_temp",
+          "description": "",
+          "name": "防冻模式温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 350,
+            "min": 5,
+            "scale": 1,
+            "step": 5,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 122,
+          "accessMode": "rw",
+          "code": "antifreeze_enabled",
+          "description": "off模式下防冻使能",
+          "name": "防冻",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 123,
+          "accessMode": "ro",
+          "code": "air_pressure_index",
+          "description": "",
+          "name": "气压指数",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 124,
+          "accessMode": "rw",
+          "code": "temporary_start_time",
+          "description": "",
+          "name": "临时模式开始时间",
+          "typeSpec": {
+            "type": "value",
+            "max": 2147483647,
+            "min": -2147483647,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 125,
+          "accessMode": "ro",
+          "code": "support_features",
+          "description": "\"bit有效 \nbit0：是否支持comfort-1/comfort-2模式 \nbit1：是否支持开窗功能 \nbit2：是否支持电量统计 \nbit3：是否支持温控逻辑 \nbit4：是否支持OLED屏幕 \nbit5：70x系列机型温度符号显示大写C \nbit6：0：705；1：706 \nbit7：0：ecogaz面板；1：复刻涂鸦面板  ",
+          "name": "功能点",
+          "typeSpec": {
+            "type": "value",
+            "max": 2147483647,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 126,
+          "accessMode": "rw",
+          "code": "app_features",
+          "description": "",
+          "name": "app支持特性",
+          "typeSpec": {
+            "type": "value",
+            "max": 2147483647,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 127,
+          "accessMode": "rw",
+          "code": "system_mode",
+          "description": "",
+          "name": "系统模式",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "comfort_mode",
+              "Eco_mode"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
