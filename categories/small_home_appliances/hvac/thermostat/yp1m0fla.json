@@ -1,0 +1,580 @@
+{
+  "modelId": "e1nubkng",
+  "services": [
+    {
+      "actions": [],
+      "code": "",
+      "description": "",
+      "events": [],
+      "name": "",
+      "properties": [
+        {
+          "abilityId": 1,
+          "accessMode": "rw",
+          "code": "switch",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_power2",
+            "attribute": "4"
+          },
+          "name": "开关",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 2,
+          "accessMode": "rw",
+          "code": "mode",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_mode",
+            "scope": "",
+            "attribute": "4"
+          },
+          "name": "工作模式",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "cold",
+              "heat",
+              "ventiliation"
+            ]
+          }
+        },
+        {
+          "abilityId": 16,
+          "accessMode": "ro",
+          "code": "temp_current",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_c",
+            "scope": "",
+            "attribute": "0",
+            "trigger": "direct",
+            "passive": true
+          },
+          "name": "当前温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 900,
+            "min": 0,
+            "scale": 1,
+            "step": 5,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 18,
+          "accessMode": "rw",
+          "code": "lower_temp",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_temp",
+            "scope": "",
+            "attribute": "0"
+          },
+          "name": "设置温度下限",
+          "typeSpec": {
+            "type": "value",
+            "max": 150,
+            "min": 50,
+            "scale": 1,
+            "step": 10,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 19,
+          "accessMode": "rw",
+          "code": "temp_correction",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_loop",
+            "scope": "",
+            "attribute": "0"
+          },
+          "name": "温度校准",
+          "typeSpec": {
+            "type": "value",
+            "max": 14,
+            "min": -14,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 28,
+          "accessMode": "rw",
+          "code": "factory_reset",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_anti-clockwise",
+            "attribute": "0"
+          },
+          "name": "恢复出厂设置",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 34,
+          "accessMode": "rw",
+          "code": "upper_temp",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_temp",
+            "scope": "",
+            "attribute": "0"
+          },
+          "name": "设置温度上限",
+          "typeSpec": {
+            "type": "value",
+            "max": 450,
+            "min": 150,
+            "scale": 1,
+            "step": 10,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 39,
+          "accessMode": "rw",
+          "code": "child_lock",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_power2",
+            "attribute": "4"
+          },
+          "name": "童锁",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 40,
+          "accessMode": "rw",
+          "code": "eco",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-eco",
+            "attribute": "0"
+          },
+          "name": "ECO模式",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 49,
+          "accessMode": "rw",
+          "code": "level",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_mode",
+            "scope": "",
+            "attribute": "0"
+          },
+          "name": "档位",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "low",
+              "middle",
+              "high",
+              "auto"
+            ]
+          }
+        },
+        {
+          "abilityId": 50,
+          "accessMode": "rw",
+          "code": "temp_set",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-set",
+            "scope": "",
+            "attribute": "4",
+            "trigger": "direct",
+            "passive": true
+          },
+          "name": "目标温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 450,
+            "min": 50,
+            "scale": 1,
+            "step": 5,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 101,
+          "accessMode": "rw",
+          "code": "week_program_13_1",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "采暖周程序周一",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 102,
+          "accessMode": "rw",
+          "code": "week_program_13_2",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "采暖周程序周二",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 103,
+          "accessMode": "rw",
+          "code": "week_program_13_3",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "采暖周程序周三",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 104,
+          "accessMode": "rw",
+          "code": "week_program_13_4",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "采暖周程序周四",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 105,
+          "accessMode": "rw",
+          "code": "week_program_13_5",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "采暖周程序周五",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 106,
+          "accessMode": "rw",
+          "code": "week_program_13_6",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "采暖周程序周六",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 107,
+          "accessMode": "rw",
+          "code": "week_program_13_7",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_time3",
+            "attribute": "4096"
+          },
+          "name": "采暖周程序周日",
+          "typeSpec": {
+            "type": "raw",
+            "maxlen": 128
+          }
+        },
+        {
+          "abilityId": 108,
+          "accessMode": "rw",
+          "code": "deadzone_temp",
+          "description": "",
+          "extensions": {
+            "scope": "",
+            "trigger": "direct"
+          },
+          "name": "盲区温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 50,
+            "min": 5,
+            "scale": 1,
+            "step": 5,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 109,
+          "accessMode": "rw",
+          "code": "eco_heattemp",
+          "description": "",
+          "extensions": {
+            "trigger": "direct"
+          },
+          "name": "制热节能温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 300,
+            "min": 0,
+            "scale": 1,
+            "step": 10,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 110,
+          "accessMode": "rw",
+          "code": "eco_cooltemp",
+          "description": "",
+          "name": "制冷节能温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 300,
+            "min": 0,
+            "scale": 1,
+            "step": 10,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 111,
+          "accessMode": "rw",
+          "code": "auto_hand",
+          "description": "",
+          "name": "自动/手动",
+          "typeSpec": {
+            "type": "bool"
+          }
+        },
+        {
+          "abilityId": 112,
+          "accessMode": "rw",
+          "code": "brightness",
+          "description": "",
+          "extensions": {
+            "scope": "",
+            "trigger": "direct"
+          },
+          "name": "白天待机亮度",
+          "typeSpec": {
+            "type": "value",
+            "max": 10,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 113,
+          "accessMode": "rw",
+          "code": "night_brightness",
+          "description": "",
+          "extensions": {
+            "scope": ""
+          },
+          "name": "夜晚待机亮度",
+          "typeSpec": {
+            "type": "value",
+            "max": 10,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": ""
+          }
+        },
+        {
+          "abilityId": 114,
+          "accessMode": "ro",
+          "code": "work_state",
+          "description": "",
+          "name": "工作状态",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "off",
+              "on"
+            ]
+          }
+        },
+        {
+          "abilityId": 115,
+          "accessMode": "rw",
+          "code": "scene_1",
+          "description": "",
+          "extensions": {
+            "scope": "",
+            "trigger": "direct"
+          },
+          "name": "场景1",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "scene"
+            ]
+          }
+        },
+        {
+          "abilityId": 116,
+          "accessMode": "rw",
+          "code": "scene_2",
+          "description": "",
+          "extensions": {
+            "trigger": "direct"
+          },
+          "name": "场景2",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "scene"
+            ]
+          }
+        },
+        {
+          "abilityId": 117,
+          "accessMode": "rw",
+          "code": "scene_3",
+          "description": "",
+          "extensions": {
+            "trigger": "direct"
+          },
+          "name": "场景3",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "scene"
+            ]
+          }
+        },
+        {
+          "abilityId": 118,
+          "accessMode": "rw",
+          "code": "scene_4",
+          "description": "",
+          "extensions": {
+            "trigger": "direct"
+          },
+          "name": "场景4",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "scene"
+            ]
+          }
+        },
+        {
+          "abilityId": 119,
+          "accessMode": "rw",
+          "code": "scene_5",
+          "description": "",
+          "extensions": {
+            "scope": "",
+            "trigger": "direct"
+          },
+          "name": "场景5",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "scene"
+            ]
+          }
+        },
+        {
+          "abilityId": 120,
+          "accessMode": "rw",
+          "code": "scene_6",
+          "description": "",
+          "extensions": {
+            "scope": "",
+            "trigger": "direct"
+          },
+          "name": "场景6",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "scene"
+            ]
+          }
+        },
+        {
+          "abilityId": 121,
+          "accessMode": "rw",
+          "code": "scene_7",
+          "description": "",
+          "extensions": {
+            "scope": "",
+            "trigger": "direct"
+          },
+          "name": "场景7",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "scene"
+            ]
+          }
+        },
+        {
+          "abilityId": 122,
+          "accessMode": "rw",
+          "code": "scene_8",
+          "description": "",
+          "extensions": {
+            "trigger": "direct"
+          },
+          "name": "场景8",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "scene"
+            ]
+          }
+        },
+        {
+          "abilityId": 123,
+          "accessMode": "rw",
+          "code": "scene_name",
+          "description": "",
+          "extensions": {
+            "scope": "",
+            "trigger": "direct"
+          },
+          "name": "场景名称",
+          "typeSpec": {
+            "type": "string",
+            "maxlen": 255
+          }
+        }
+      ]
+    }
+  ]
+}
