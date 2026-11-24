@@ -1,0 +1,244 @@
+{
+  "modelId": "g5msx8",
+  "services": [
+    {
+      "actions": [],
+      "code": "",
+      "description": "",
+      "events": [],
+      "name": "默认服务",
+      "properties": [
+        {
+          "abilityId": 1,
+          "accessMode": "ro",
+          "code": "temp_current",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_c",
+            "attribute": "1666",
+            "trigger": "direct"
+          },
+          "name": "温度",
+          "typeSpec": {
+            "type": "value",
+            "max": 600,
+            "min": -200,
+            "scale": 1,
+            "step": 1,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 2,
+          "accessMode": "ro",
+          "code": "humidity_value",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-shidu",
+            "attribute": "1666",
+            "trigger": "direct"
+          },
+          "name": "湿度",
+          "typeSpec": {
+            "type": "value",
+            "max": 100,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "%"
+          }
+        },
+        {
+          "abilityId": 4,
+          "accessMode": "ro",
+          "code": "battery_percentage",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_battery",
+            "attribute": "1152",
+            "trigger": "direct"
+          },
+          "name": "电池电量",
+          "typeSpec": {
+            "type": "value",
+            "max": 100,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "%"
+          }
+        },
+        {
+          "abilityId": 9,
+          "accessMode": "rw",
+          "code": "temp_unit_convert",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_mode",
+            "attribute": "1152"
+          },
+          "name": "温度单位",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "c",
+              "f"
+            ]
+          }
+        },
+        {
+          "abilityId": 10,
+          "accessMode": "rw",
+          "code": "maxtemp_set",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-setting",
+            "attribute": "1152"
+          },
+          "name": "温度上限",
+          "typeSpec": {
+            "type": "value",
+            "max": 600,
+            "min": -200,
+            "scale": 1,
+            "step": 10,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 11,
+          "accessMode": "rw",
+          "code": "minitemp_set",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-wendu1",
+            "attribute": "1152"
+          },
+          "name": "温度下限",
+          "typeSpec": {
+            "type": "value",
+            "max": 600,
+            "min": -200,
+            "scale": 1,
+            "step": 10,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 12,
+          "accessMode": "rw",
+          "code": "maxhum_set",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-setting",
+            "attribute": "1152"
+          },
+          "name": "湿度上限",
+          "typeSpec": {
+            "type": "value",
+            "max": 100,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "%"
+          }
+        },
+        {
+          "abilityId": 13,
+          "accessMode": "rw",
+          "code": "minihum_set",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-setting",
+            "attribute": "1152"
+          },
+          "name": "湿度下限",
+          "typeSpec": {
+            "type": "value",
+            "max": 100,
+            "min": 0,
+            "scale": 0,
+            "step": 1,
+            "unit": "%"
+          }
+        },
+        {
+          "abilityId": 14,
+          "accessMode": "ro",
+          "code": "temp_alarm",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-baojing",
+            "attribute": "1152"
+          },
+          "name": "温度报警",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "cancel",
+              "loweralarm",
+              "upperalarm"
+            ]
+          }
+        },
+        {
+          "abilityId": 15,
+          "accessMode": "ro",
+          "code": "hum_alarm",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-baojing",
+            "attribute": "1152"
+          },
+          "name": "湿度报警",
+          "typeSpec": {
+            "type": "enum",
+            "range": [
+              "cancel",
+              "loweralarm",
+              "upperalarm"
+            ]
+          }
+        },
+        {
+          "abilityId": 19,
+          "accessMode": "rw",
+          "code": "temp_sensitivity",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-wendu2",
+            "attribute": "1152"
+          },
+          "name": "温度灵敏度",
+          "typeSpec": {
+            "type": "value",
+            "max": 50,
+            "min": 3,
+            "scale": 1,
+            "step": 1,
+            "unit": "℃"
+          }
+        },
+        {
+          "abilityId": 20,
+          "accessMode": "rw",
+          "code": "hum_sensitivity",
+          "description": "",
+          "extensions": {
+            "iconName": "icon-dp_wet2",
+            "attribute": "1152"
+          },
+          "name": "湿度灵敏度",
+          "typeSpec": {
+            "type": "value",
+            "max": 10,
+            "min": 3,
+            "scale": 0,
+            "step": 1,
+            "unit": "%"
+          }
+        }
+      ]
+    }
+  ]
+}
