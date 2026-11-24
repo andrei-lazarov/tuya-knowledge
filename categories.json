@@ -1,0 +1,2579 @@
+{
+  "result": [
+    {
+      "code": "cz",
+      "name": "Socket"
+    },
+    {
+      "code": "dcb",
+      "name": "Battery Pack"
+    },
+    {
+      "code": "yddy",
+      "name": "Power bank"
+    },
+    {
+      "code": "pc",
+      "name": "Power Strip"
+    },
+    {
+      "code": "aqcz",
+      "name": "Metering socket"
+    },
+    {
+      "code": "wkcz",
+      "name": "Temperature control socket"
+    },
+    {
+      "code": "dgkzq",
+      "name": "Controller"
+    },
+    {
+      "code": "ckmb",
+      "name": "RGB Touch Panel"
+    },
+    {
+      "code": "znspq",
+      "name": "Adapter"
+    },
+    {
+      "code": "kg",
+      "name": "Switch"
+    },
+    {
+      "code": "tgkg",
+      "name": "Dimmer Switch"
+    },
+    {
+      "code": "clkg",
+      "name": "Curtain Switch"
+    },
+    {
+      "code": "cjkg",
+      "name": "Scenario Switch"
+    },
+    {
+      "code": "wxkg",
+      "name": "Wireless Switch"
+    },
+    {
+      "code": "fskg",
+      "name": "Fan Switch"
+    },
+    {
+      "code": "ckqdkg",
+      "name": "Card Switch"
+    },
+    {
+      "code": "wxml",
+      "name": "Wireless Doorbell"
+    },
+    {
+      "code": "tdq",
+      "name": "Breaker"
+    },
+    {
+      "code": "ckmkzq",
+      "name": "Garage Door Opener"
+    },
+    {
+      "code": "xdkzq",
+      "name": "Disinfection controller"
+    },
+    {
+      "code": "zigbeeqc",
+      "name": "Wall Socket"
+    },
+    {
+      "code": "qjdcz",
+      "name": "Scenario Light Socket"
+    },
+    {
+      "code": "zigbeekt",
+      "name": "Air Conditioner Mate"
+    },
+    {
+      "code": "znjxs",
+      "name": "Smart Manipulator Arm"
+    },
+    {
+      "code": "dz",
+      "name": "Electric Drill"
+    },
+    {
+      "code": "dqy",
+      "name": "Globe"
+    },
+    {
+      "code": "aity",
+      "name": "AI Projector"
+    },
+    {
+      "code": "PDpc",
+      "name": "Power strip"
+    },
+    {
+      "code": "jlmkzq",
+      "name": "Rolling door controller"
+    },
+    {
+      "code": "znjrf",
+      "name": "heating suit"
+    },
+    {
+      "code": "zncdq",
+      "name": "Professional charger"
+    },
+    {
+      "code": "gcmkzq",
+      "name": "Barn Door"
+    },
+    {
+      "code": "hwsb",
+      "name": "Water Pump"
+    },
+    {
+      "code": "sjx",
+      "name": "data cable"
+    },
+    {
+      "code": "dgncz",
+      "name": "Temperature and humidity socket"
+    },
+    {
+      "code": "cljqr",
+      "name": "Curtain Robot"
+    },
+    {
+      "code": "dbs",
+      "name": "Electric Wrench"
+    },
+    {
+      "code": "wxjrq",
+      "name": "Mosquito repellent heater"
+    },
+    {
+      "code": "sykg",
+      "name": "Commercial Switch"
+    },
+    {
+      "code": "pmkg",
+      "name": "Screen Switch"
+    },
+    {
+      "code": "pmtgkg",
+      "name": "Screen Dimmer Switch"
+    },
+    {
+      "code": "3dd",
+      "name": "Three-dimensional Lamp"
+    },
+    {
+      "code": "bd",
+      "name": "wall light"
+    },
+    {
+      "code": "bgd",
+      "name": "Fill Light"
+    },
+    {
+      "code": "cmykq",
+      "name": "Touch Remote Control"
+    },
+    {
+      "code": "cxd",
+      "name": "Magnetic Fastening Light"
+    },
+    {
+      "code": "dj",
+      "name": "Light Source"
+    },
+    {
+      "code": "fbd",
+      "name": "Explosion-proof Light"
+    },
+    {
+      "code": "fgd",
+      "name": "Flood Light"
+    },
+    {
+      "code": "fwd",
+      "name": "Ambient Light"
+    },
+    {
+      "code": "gf",
+      "name": "Photovoltaics"
+    },
+    {
+      "code": "ggd",
+      "name": "High-mast Light"
+    },
+    {
+      "code": "gkd",
+      "name": "Bay Light"
+    },
+    {
+      "code": "gld",
+      "name": "Light Therapy Lamp"
+    },
+    {
+      "code": "gqzm",
+      "name": "Public Area Lighting"
+    },
+    {
+      "code": "gxd",
+      "name": "Fiber Optic Light1"
+    },
+    {
+      "code": "hbd",
+      "name": "Blackboard Light"
+    },
+    {
+      "code": "hcsbd",
+      "name": "Dreamcolor Mouse Mat"
+    },
+    {
+      "code": "hctyd",
+      "name": "Dreamcolor Garden Light"
+    },
+    {
+      "code": "hdmipmtbq",
+      "name": "HDMI Screen Sync Controller"
+    },
+    {
+      "code": "hyd",
+      "name": "Flame Bulb"
+    },
+    {
+      "code": "hzjd",
+      "name": "Makeup Light"
+    },
+    {
+      "code": "jgspy",
+      "name": "Laser Level"
+    },
+    {
+      "code": "jqd",
+      "name": "Mirror Light"
+    },
+    {
+      "code": "jsd",
+      "name": "Classroom Light"
+    },
+    {
+      "code": "leddzp",
+      "name": "LED Electronic Display"
+    },
+    {
+      "code": "lzd",
+      "name": "Candle Lamp"
+    },
+    {
+      "code": "qcd",
+      "name": "Sports Light"
+    },
+    {
+      "code": "qxtyd",
+      "name": "Holographic Imaging Light"
+    },
+    {
+      "code": "rgbsb",
+      "name": "RGB Mouse"
+    },
+    {
+      "code": "ryd",
+      "name": "Lava Lamp"
+    },
+    {
+      "code": "sbd",
+      "name": "Paper Lantern"
+    },
+    {
+      "code": "sdt",
+      "name": "flash light"
+    },
+    {
+      "code": "sfd",
+      "name": "Tri-proof Light"
+    },
+    {
+      "code": "sjyd",
+      "name": "Salt Lamp"
+    },
+    {
+      "code": "sntydj",
+      "name": "Indoor Lighting"
+    },
+    {
+      "code": "sxtpmtbq",
+      "name": "Camera Screen Sync Controller"
+    },
+    {
+      "code": "syzmqd",
+      "name": "Commercial LED Driver"
+    },
+    {
+      "code": "syzmqdp",
+      "name": "Commercial LED Driver Pro"
+    },
+    {
+      "code": "syzmykqp",
+      "name": "Commercial Scene Remote Pro"
+    },
+    {
+      "code": "tccd",
+      "name": "Parking Lot Light"
+    },
+    {
+      "code": "tgd",
+      "name": "Flood Light"
+    },
+    {
+      "code": "tjd",
+      "name": "Sky Light"
+    },
+    {
+      "code": "tpd",
+      "name": "Canopy Light"
+    },
+    {
+      "code": "tyd",
+      "name": "Garden Light"
+    },
+    {
+      "code": "tynafd",
+      "name": "Solar Security Light"
+    },
+    {
+      "code": "tyndc",
+      "name": "Solar String Light"
+    },
+    {
+      "code": "tyngyd",
+      "name": "Solar Motion Sensor Light"
+    },
+    {
+      "code": "tynlyd",
+      "name": "Solar Camping Light"
+    },
+    {
+      "code": "tyntyd",
+      "name": "Solar Pathway Light"
+    },
+    {
+      "code": "tynyddy",
+      "name": "Solar Power Bank"
+    },
+    {
+      "code": "xdsjd",
+      "name": "Germicidal Light"
+    },
+    {
+      "code": "xnykq",
+      "name": "Multifunction Remote Control"
+    },
+    {
+      "code": "xtd",
+      "name": "Linear Luminarie"
+    },
+    {
+      "code": "ybd",
+      "name": "Yuba Light"
+    },
+    {
+      "code": "yjd",
+      "name": "Emergency Light"
+    },
+    {
+      "code": "yzd",
+      "name": "Farming Light"
+    },
+    {
+      "code": "zbd",
+      "name": "Selfie Light"
+    },
+    {
+      "code": "zjd",
+      "name": "Batten Light"
+    },
+    {
+      "code": "zmcgd",
+      "name": "Cabinet Light"
+    },
+    {
+      "code": "zmdd",
+      "name": "Pendant Light"
+    },
+    {
+      "code": "zmdg",
+      "name": "LED Tube"
+    },
+    {
+      "code": "zmkzq",
+      "name": "LED Controller"
+    },
+    {
+      "code": "zmmatterlite",
+      "name": "Lighting Matter Lite"
+    },
+    {
+      "code": "zsd",
+      "name": "Chandelier"
+    },
+    {
+      "code": "ztd",
+      "name": "Candleholder Lamp"
+    },
+    {
+      "code": "zwd",
+      "name": "Grow Light"
+    },
+    {
+      "code": "zwszd",
+      "name": "Horticulture Light"
+    },
+    {
+      "code": "dd",
+      "name": "Strip Light/Light strip"
+    },
+    {
+      "code": "hcdd",
+      "name": "Dream Color Strip"
+    },
+    {
+      "code": "syzmkz",
+      "name": "Commercial LED Controller"
+    },
+    {
+      "code": "zmpj",
+      "name": "Parts"
+    },
+    {
+      "code": "gyd",
+      "name": "PIR Light"
+    },
+    {
+      "code": "wbldgyd",
+      "name": "Microwave radar sensor light"
+    },
+    {
+      "code": "xdd",
+      "name": "Ceiling Light"
+    },
+    {
+      "code": "fsd",
+      "name": "Ceiling Fan/Fan Light"
+    },
+    {
+      "code": "tyndj",
+      "name": "solar light"
+    },
+    {
+      "code": "dc",
+      "name": "String Lights"
+    },
+    {
+      "code": "hcdc",
+      "name": "Colorful String Light"
+    },
+    {
+      "code": "td",
+      "name": "Table lamp/Floor Lamp"
+    },
+    {
+      "code": "tgq",
+      "name": "Light Modulator"
+    },
+    {
+      "code": "txd",
+      "name": "Downlight"
+    },
+    {
+      "code": "cld",
+      "name": "Curtain Light"
+    },
+    {
+      "code": "dqyd",
+      "name": "Globe Lamp"
+    },
+    {
+      "code": "hwtydj",
+      "name": "Solution for outdoor light"
+    },
+    {
+      "code": "sxd",
+      "name": "Spotlight"
+    },
+    {
+      "code": "dsd",
+      "name": "Filament lamp"
+    },
+    {
+      "code": "pjd",
+      "name": "DIY Light Panels"
+    },
+    {
+      "code": "zmqd",
+      "name": "Lighting Driver"
+    },
+    {
+      "code": "ld",
+      "name": "Street light"
+    },
+    {
+      "code": "mbd",
+      "name": "Panel Light"
+    },
+    {
+      "code": "pd",
+      "name": "PAR Light"
+    },
+    {
+      "code": "ykq",
+      "name": "Lighting remote control"
+    },
+    {
+      "code": "dsdsoc",
+      "name": "Ceiling fan light"
+    },
+    {
+      "code": "xyd",
+      "name": "Night light"
+    },
+    {
+      "code": "yscgpmtbq",
+      "name": "Sensor Screen Sync Contrller"
+    },
+    {
+      "code": "yyfwd",
+      "name": "Music Ambient Light"
+    },
+    {
+      "code": "xktyd",
+      "name": "Star projector"
+    },
+    {
+      "code": "dlzmjk",
+      "name": "Roadway Centralized Controller"
+    },
+    {
+      "code": "dlzmkz",
+      "name": "Roadway Single Controller"
+    },
+    {
+      "code": "tynzmkz",
+      "name": "Solar LED Controller"
+    },
+    {
+      "code": "g9",
+      "name": "G9 Light"
+    },
+    {
+      "code": "gu10",
+      "name": "GU10 Light"
+    },
+    {
+      "code": "dlkzq",
+      "name": "Multi-channel controller"
+    },
+    {
+      "code": "gzd",
+      "name": "Working Light"
+    },
+    {
+      "code": "jyzmqd",
+      "name": "Educational LED Driver"
+    },
+    {
+      "code": "kt",
+      "name": "Air Conditioner/AC"
+    },
+    {
+      "code": "bx",
+      "name": "Refrigerator"
+    },
+    {
+      "code": "xy",
+      "name": "Washing Machine"
+    },
+    {
+      "code": "rs",
+      "name": "Water Heater"
+    },
+    {
+      "code": "bgl",
+      "name": "Boiler"
+    },
+    {
+      "code": "znrb",
+      "name": "Smart Heat Pump"
+    },
+    {
+      "code": "ydkt",
+      "name": "Portable Air Conditioner"
+    },
+    {
+      "code": "gyj",
+      "name": "Clothes Dryer"
+    },
+    {
+      "code": "xbx",
+      "name": "Mini Refrigerator"
+    },
+    {
+      "code": "cwdwq",
+      "name": "Cat.1 Pet Tracker"
+    },
+    {
+      "code": "cwjqr",
+      "name": "Companion Pet Robot"
+    },
+    {
+      "code": "ds_1",
+      "name": "beacon ceiling fan"
+    },
+    {
+      "code": "fsyk",
+      "name": "an remote control"
+    },
+    {
+      "code": "kscwwsq",
+      "name": "Pet Feeder with Camera"
+    },
+    {
+      "code": "ktwk",
+      "name": "Air thermostat"
+    },
+    {
+      "code": "ljt",
+      "name": "Move Trash Can"
+    },
+    {
+      "code": "sd",
+      "name": "Robot Vacuum"
+    },
+    {
+      "code": "tdjqr",
+      "name": "Automatic Mopping Robot"
+    },
+    {
+      "code": "xdj",
+      "name": "Disinfection machine"
+    },
+    {
+      "code": "xfs_1",
+      "name": "Mini fan"
+    },
+    {
+      "code": "xkp",
+      "name": "Display Control Screen"
+    },
+    {
+      "code": "ydkqjhq",
+      "name": "Mobile Air Purifier Robot"
+    },
+    {
+      "code": "yech",
+      "name": "Baby scale"
+    },
+    {
+      "code": "ytj",
+      "name": "Ironing machine"
+    },
+    {
+      "code": "znsxb",
+      "name": "Smart Painting Robot"
+    },
+    {
+      "code": "ccjqr",
+      "name": "Window Cleaner"
+    },
+    {
+      "code": "cwclt",
+      "name": "Pet Food Bucket"
+    },
+    {
+      "code": "gcj",
+      "name": "Mower"
+    },
+    {
+      "code": "xcq",
+      "name": "Vacuum Cleaner"
+    },
+    {
+      "code": "fs",
+      "name": "Fan"
+    },
+    {
+      "code": "ks",
+      "name": "Air Cooler"
+    },
+    {
+      "code": "scxdj",
+      "name": "Hand-held Mopping Robot"
+    },
+    {
+      "code": "xxj",
+      "name": "Diffuser"
+    },
+    {
+      "code": "jsq",
+      "name": "Humidifier"
+    },
+    {
+      "code": "ycjqr",
+      "name": "Pool Robot"
+    },
+    {
+      "code": "cs",
+      "name": "Dehumidifier"
+    },
+    {
+      "code": "kj",
+      "name": "Air Purifier"
+    },
+    {
+      "code": "cwq",
+      "name": "Deodorizer"
+    },
+    {
+      "code": "kscwysj",
+      "name": "Pet Water Fountain With Camera"
+    },
+    {
+      "code": "qn",
+      "name": "Heater"
+    },
+    {
+      "code": "dr",
+      "name": "Electric Blanket"
+    },
+    {
+      "code": "mjj",
+      "name": "Towel rack"
+    },
+    {
+      "code": "dbl",
+      "name": "Electric fireplace"
+    },
+    {
+      "code": "cwmw",
+      "name": "Pet House"
+    },
+    {
+      "code": "dnz",
+      "name": "Electric Heating Table"
+    },
+    {
+      "code": "cwwsq",
+      "name": "Pet Feeder"
+    },
+    {
+      "code": "cwysj",
+      "name": "Pet Water Feeder"
+    },
+    {
+      "code": "cwwqfsq",
+      "name": "Pet Ball Thrower"
+    },
+    {
+      "code": "cwtswsq",
+      "name": "Pet Treat Feeder"
+    },
+    {
+      "code": "dcq",
+      "name": "Pet Toys Ball"
+    },
+    {
+      "code": "msp",
+      "name": "Cat Toilet"
+    },
+    {
+      "code": "szpc",
+      "name": "Aquarium Power Strip"
+    },
+    {
+      "code": "ygjrb",
+      "name": "Aquarium Heaters"
+    },
+    {
+      "code": "ygsb",
+      "name": "Aquarium Pump"
+    },
+    {
+      "code": "ygwsq",
+      "name": "Fish Feeder"
+    },
+    {
+      "code": "clykq",
+      "name": "Curtain Remote"
+    },
+    {
+      "code": "ksyg",
+      "name": "Video fish tank"
+    },
+    {
+      "code": "sjz",
+      "name": "Lifting Table"
+    },
+    {
+      "code": "sz",
+      "name": "Plant Grower"
+    },
+    {
+      "code": "szj",
+      "name": "Shredder"
+    },
+    {
+      "code": "zndsj",
+      "name": "Smart TV Shelf"
+    },
+    {
+      "code": "cwxq",
+      "name": "Pet Tracker"
+    },
+    {
+      "code": "yb",
+      "name": "Bathroom Heater"
+    },
+    {
+      "code": "ysj",
+      "name": "Bathroom Mirror"
+    },
+    {
+      "code": "mwd",
+      "name": "Mosquito Lamp"
+    },
+    {
+      "code": "ktkzq",
+      "name": "Air Conditioner"
+    },
+    {
+      "code": "lyz",
+      "name": "Shower Column"
+    },
+    {
+      "code": "petfinder",
+      "name": "Pet Finder"
+    },
+    {
+      "code": "cwbb",
+      "name": "Pet Bag"
+    },
+    {
+      "code": "tjx",
+      "name": "Electric Baseboard Heater"
+    },
+    {
+      "code": "cwhgx",
+      "name": "Pet Dryer"
+    },
+    {
+      "code": "cwjwq",
+      "name": "Pet Odor Remover"
+    },
+    {
+      "code": "cwqys",
+      "name": "Pet Leash"
+    },
+    {
+      "code": "xgmjq",
+      "name": "Shoe cabinet sterilizer"
+    },
+    {
+      "code": "yyy",
+      "name": "Baby Rocking Chair"
+    },
+    {
+      "code": "etaqzy",
+      "name": "Child Safety Seat"
+    },
+    {
+      "code": "yec",
+      "name": "Crib"
+    },
+    {
+      "code": "xnq",
+      "name": "Breast pump"
+    },
+    {
+      "code": "ywhjj",
+      "name": "Wash Aid"
+    },
+    {
+      "code": "mt",
+      "name": "Smart Toilet"
+    },
+    {
+      "code": "znnz",
+      "name": "Smart alarm clock"
+    },
+    {
+      "code": "dyj",
+      "name": "Printer"
+    },
+    {
+      "code": "ntq",
+      "name": "HVAC"
+    },
+    {
+      "code": "yug",
+      "name": "Fish Tank"
+    },
+    {
+      "code": "ksmsp",
+      "name": "Video Cat Litter Box"
+    },
+    {
+      "code": "zncwc",
+      "name": "Smart pet cabin"
+    },
+    {
+      "code": "zncwxq",
+      "name": "Smart pet collar"
+    },
+    {
+      "code": "yyh",
+      "name": "Music Box"
+    },
+    {
+      "code": "petdoor",
+      "name": "Pet Door"
+    },
+    {
+      "code": "tyykq",
+      "name": "Remote Control"
+    },
+    {
+      "code": "wk",
+      "name": "Thermostat"
+    },
+    {
+      "code": "wkf",
+      "name": "TRV"
+    },
+    {
+      "code": "xfj",
+      "name": "Ventilation System"
+    },
+    {
+      "code": "bmwk",
+      "name": "North American thermostat"
+    },
+    {
+      "code": "hwktwkq",
+      "name": "IR Air Thermostat"
+    },
+    {
+      "code": "cl",
+      "name": "Curtain"
+    },
+    {
+      "code": "zigbeecm",
+      "name": "Curtain Motor"
+    },
+    {
+      "code": "lyj",
+      "name": "Drying Rack"
+    },
+    {
+      "code": "mc",
+      "name": "Door/Window Controller"
+    },
+    {
+      "code": "xg",
+      "name": "Shoe cabinet"
+    },
+    {
+      "code": "sf",
+      "name": "Smart Sofa"
+    },
+    {
+      "code": "ttm",
+      "name": "Tatami"
+    },
+    {
+      "code": "dg",
+      "name": "Wall Cabinet"
+    },
+    {
+      "code": "jdcljqr",
+      "name": "Curtain robot"
+    },
+    {
+      "code": "szjqr",
+      "name": "Finger robot"
+    },
+    {
+      "code": "dkl",
+      "name": "Electric Grill"
+    },
+    {
+      "code": "dsq",
+      "name": "Timer"
+    },
+    {
+      "code": "dylg",
+      "name": "Electric Pressure Cooker"
+    },
+    {
+      "code": "kfj",
+      "name": "Coffee Maker"
+    },
+    {
+      "code": "kqzg",
+      "name": "Air Fryer"
+    },
+    {
+      "code": "swzkfkj",
+      "name": "Vacuum Sealer"
+    },
+    {
+      "code": "xcj",
+      "name": "Vegetable cleaner"
+    },
+    {
+      "code": "yinsj",
+      "name": "Water Dispenser"
+    },
+    {
+      "code": "df",
+      "name": "Rice Cooker"
+    },
+    {
+      "code": "mzj",
+      "name": "Sous Vide Cooker"
+    },
+    {
+      "code": "kx",
+      "name": "Oven"
+    },
+    {
+      "code": "bh",
+      "name": "Smart Kettle"
+    },
+    {
+      "code": "wb",
+      "name": "Microwave"
+    },
+    {
+      "code": "cn",
+      "name": "Milk Dispenser"
+    },
+    {
+      "code": "cyljclq",
+      "name": "Food Waste Disposer"
+    },
+    {
+      "code": "mg",
+      "name": "Rice cabinet"
+    },
+    {
+      "code": "ccj",
+      "name": "Cooker"
+    },
+    {
+      "code": "ggj",
+      "name": "Dehydrator"
+    },
+    {
+      "code": "pbj",
+      "name": "Blender"
+    },
+    {
+      "code": "js",
+      "name": "Water Purifier"
+    },
+    {
+      "code": "tnq",
+      "name": "Smart Milk Kettle"
+    },
+    {
+      "code": "zx",
+      "name": "Steam Oven"
+    },
+    {
+      "code": "fsj",
+      "name": "Babycook"
+    },
+    {
+      "code": "jcz",
+      "name": "Integrated Kitchen"
+    },
+    {
+      "code": "llj",
+      "name": "Food Processor"
+    },
+    {
+      "code": "swtz",
+      "name": "Food Probe"
+    },
+    {
+      "code": "xd",
+      "name": "Disinfection Cabinet"
+    },
+    {
+      "code": "xdg",
+      "name": "Sterilizer"
+    },
+    {
+      "code": "xwj",
+      "name": "Dishwasher"
+    },
+    {
+      "code": "yexdg",
+      "name": "Baby Sterilizer"
+    },
+    {
+      "code": "ysh",
+      "name": "Health pot"
+    },
+    {
+      "code": "nnq",
+      "name": "Bottle Warmer"
+    },
+    {
+      "code": "snj",
+      "name": "Yogurt Maker"
+    },
+    {
+      "code": "znlt",
+      "name": "Smart Faucet"
+    },
+    {
+      "code": "zzj",
+      "name": "Juicer"
+    },
+    {
+      "code": "djj",
+      "name": "Soymilk Maker"
+    },
+    {
+      "code": "jyj",
+      "name": "Drinking Water Dispensers"
+    },
+    {
+      "code": "mb",
+      "name": "Bread Maker"
+    },
+    {
+      "code": "bqlj",
+      "name": "Ice Cream Machine"
+    },
+    {
+      "code": "rq",
+      "name": "Gas Stove"
+    },
+    {
+      "code": "dcl",
+      "name": "Induction Cooker"
+    },
+    {
+      "code": "yyj",
+      "name": "Hood"
+    },
+    {
+      "code": "zbj",
+      "name": "Ice Machine"
+    },
+    {
+      "code": "znfh",
+      "name": "Bento Box"
+    },
+    {
+      "code": "cbj",
+      "name": "Tea Machine"
+    },
+    {
+      "code": "jg",
+      "name": "Wine cabinet"
+    },
+    {
+      "code": "znsjq",
+      "name": "Smart Pump"
+    },
+    {
+      "code": "afcg",
+      "name": "sensor"
+    },
+    {
+      "code": "afjp",
+      "name": "Key Pad"
+    },
+    {
+      "code": "aisz",
+      "name": "AI Clock"
+    },
+    {
+      "code": "cjy",
+      "name": "Laser  distance meter"
+    },
+    {
+      "code": "csbcgq",
+      "name": "Ultrasonic Parking Detector"
+    },
+    {
+      "code": "cwy",
+      "name": "Thermometer"
+    },
+    {
+      "code": "dltcq",
+      "name": "Current Detector"
+    },
+    {
+      "code": "dytcq",
+      "name": "Voltage Detector"
+    },
+    {
+      "code": "dzbq",
+      "name": "Electronic Label"
+    },
+    {
+      "code": "fgycgq",
+      "name": "Wind and rain sensor"
+    },
+    {
+      "code": "fkq",
+      "name": "Card Issuer（Wi-Fi）"
+    },
+    {
+      "code": "ggkzq",
+      "name": "Lighting Controller"
+    },
+    {
+      "code": "gykzq",
+      "name": "Motion Sensor Controller"
+    },
+    {
+      "code": "hjjcy",
+      "name": "Environmental detector"
+    },
+    {
+      "code": "jbq",
+      "name": "Pedometer"
+    },
+    {
+      "code": "jjjcy",
+      "name": "Alcohol Detector"
+    },
+    {
+      "code": "jsq1",
+      "name": "Timer"
+    },
+    {
+      "code": "sypir",
+      "name": "Commercial PIR Motion Sensor"
+    },
+    {
+      "code": "szjcy",
+      "name": "Water quality detector"
+    },
+    {
+      "code": "wbcgq",
+      "name": "Microwave sensor"
+    },
+    {
+      "code": "wlj",
+      "name": "Grip meter"
+    },
+    {
+      "code": "wsdykq",
+      "name": "Temp Humidity Remote Control"
+    },
+    {
+      "code": "ybq",
+      "name": "Greeter"
+    },
+    {
+      "code": "zdshj",
+      "name": "Vending Machine"
+    },
+    {
+      "code": "zkj",
+      "name": "Vacuum Gauge"
+    },
+    {
+      "code": "znhp",
+      "name": "Smart Planter"
+    },
+    {
+      "code": "znykq",
+      "name": "Smart remote"
+    },
+    {
+      "code": "zwcgq",
+      "name": "Occupancy Sensor"
+    },
+    {
+      "code": "twj",
+      "name": "Body Thermometer"
+    },
+    {
+      "code": "pir",
+      "name": "Motion Detector"
+    },
+    {
+      "code": "hps",
+      "name": "Human Presence Sensor"
+    },
+    {
+      "code": "mcs",
+      "name": "Contact Sensor"
+    },
+    {
+      "code": "sos",
+      "name": "Emergency Button"
+    },
+    {
+      "code": "hzdcgq",
+      "name": "Constant Illumination Sensor"
+    },
+    {
+      "code": "sj",
+      "name": "Flooding Detector"
+    },
+    {
+      "code": "gas_controller",
+      "name": "Gas Controller"
+    },
+    {
+      "code": "zd",
+      "name": "Vibration Sensor"
+    },
+    {
+      "code": "ylcg",
+      "name": "Pressure Sensor"
+    },
+    {
+      "code": "sgbj",
+      "name": "Siren"
+    },
+    {
+      "code": "llcgq",
+      "name": "Flow Sensor"
+    },
+    {
+      "code": "wsdcg",
+      "name": "Temperature and Humidity Sensor"
+    },
+    {
+      "code": "ldcg",
+      "name": "Luminance Sensor"
+    },
+    {
+      "code": "qxj",
+      "name": "Clock Weather station"
+    },
+    {
+      "code": "jqbj",
+      "name": "Formaldehyde Detector"
+    },
+    {
+      "code": "pm2.5",
+      "name": "PM2.5 Sensor"
+    },
+    {
+      "code": "co2bj",
+      "name": "CO2 Detector"
+    },
+    {
+      "code": "voc",
+      "name": "VOC Sensor"
+    },
+    {
+      "code": "zwjcy",
+      "name": "Plant monitor"
+    },
+    {
+      "code": "ywbj",
+      "name": "Smoke Detector"
+    },
+    {
+      "code": "rqbj",
+      "name": "Gas Detector"
+    },
+    {
+      "code": "jwbj",
+      "name": "Methane Detector"
+    },
+    {
+      "code": "ywcgq",
+      "name": "Liquid level Sensor"
+    },
+    {
+      "code": "cobj",
+      "name": "CO Detector"
+    },
+    {
+      "code": "rg",
+      "name": "Heat Detector"
+    },
+    {
+      "code": "dgnbj",
+      "name": "Multi-function Sensor"
+    },
+    {
+      "code": "mal",
+      "name": "Multifunctional Alarm"
+    },
+    {
+      "code": "ywjcy",
+      "name": "Complex Smoke Detector"
+    },
+    {
+      "code": "znzy",
+      "name": "Smart Seat"
+    },
+    {
+      "code": "zngz",
+      "name": "Smart Cane"
+    },
+    {
+      "code": "slm",
+      "name": "Sound level meter"
+    },
+    {
+      "code": "whq",
+      "name": "Atomizer"
+    },
+    {
+      "code": "BDJTZC",
+      "name": "eight electrodes body fat scale"
+    },
+    {
+      "code": "dztwj",
+      "name": "electronic clinical thermometer"
+    },
+    {
+      "code": "ewq",
+      "name": "Forehead thermometer"
+    },
+    {
+      "code": "gbtwj",
+      "name": "Wall-mounted thermometer"
+    },
+    {
+      "code": "jbamy",
+      "name": "Neck massage"
+    },
+    {
+      "code": "jmq",
+      "name": "Fascial Gun"
+    },
+    {
+      "code": "jsj",
+      "name": "Fitness mirror"
+    },
+    {
+      "code": "ksqhty",
+      "name": "Visual Blackhead Remover"
+    },
+    {
+      "code": "kswes",
+      "name": "Ear Wax Removal Otoscope"
+    },
+    {
+      "code": "mry",
+      "name": "Beauty Instrument"
+    },
+    {
+      "code": "pltwj",
+      "name": "Ovulation Thermometer"
+    },
+    {
+      "code": "qqyp",
+      "name": "Adult Toy"
+    },
+    {
+      "code": "tew_1",
+      "name": "Temperature Stick"
+    },
+    {
+      "code": "tmy",
+      "name": "hair removal instrument"
+    },
+    {
+      "code": "ts",
+      "name": "Smart Rope Skipping"
+    },
+    {
+      "code": "tzc1",
+      "name": "Body Fat Scale"
+    },
+    {
+      "code": "xyy",
+      "name": "Oximeter"
+    },
+    {
+      "code": "yyc",
+      "name": "Nutrition scale"
+    },
+    {
+      "code": "cpj",
+      "name": "Skin Scurbber"
+    },
+    {
+      "code": "sb",
+      "name": "Watch/Bracelet"
+    },
+    {
+      "code": "tzc10",
+      "name": "Body weight scale"
+    },
+    {
+      "code": "xyj",
+      "name": "Blood Pressure Monitor"
+    },
+    {
+      "code": "bsy",
+      "name": "Moisturizing machine"
+    },
+    {
+      "code": "znhsb",
+      "name": "Smart glass"
+    },
+    {
+      "code": "amy",
+      "name": "Massage Chair"
+    },
+    {
+      "code": "zpbj",
+      "name": "Treadmill"
+    },
+    {
+      "code": "smd",
+      "name": "Sleep Band"
+    },
+    {
+      "code": "smnk",
+      "name": "Sleep Dot"
+    },
+    {
+      "code": "znc",
+      "name": "Smart Bed"
+    },
+    {
+      "code": "znzt",
+      "name": "Smart pillow"
+    },
+    {
+      "code": "bzyd",
+      "name": "White Noise Light"
+    },
+    {
+      "code": "ghty",
+      "name": "Personal care"
+    },
+    {
+      "code": "liliao",
+      "name": "Physiotherapy Products"
+    },
+    {
+      "code": "zyp",
+      "name": "Foot Tub"
+    },
+    {
+      "code": "ys",
+      "name": "Toothbrush"
+    },
+    {
+      "code": "znyh",
+      "name": "Smart Pill Box"
+    },
+    {
+      "code": "jmy",
+      "name": "Smart cleanser"
+    },
+    {
+      "code": "txj",
+      "name": "Shaving machine"
+    },
+    {
+      "code": "znqp",
+      "name": "Smart Badminton Racket"
+    },
+    {
+      "code": "push_up_bars",
+      "name": "Push Up Bars"
+    },
+    {
+      "code": "vibration_plate",
+      "name": "Vibration Plate"
+    },
+    {
+      "code": "znwqp",
+      "name": "Smart Tennis Racket"
+    },
+    {
+      "code": "znyl",
+      "name": "Smart Dumbbells"
+    },
+    {
+      "code": "znwlq",
+      "name": "Smart Wrist Ball"
+    },
+    {
+      "code": "dgdc",
+      "name": "Indoor Cycling Bike"
+    },
+    {
+      "code": "znhlq",
+      "name": "Hula Hoop"
+    },
+    {
+      "code": "znjfl",
+      "name": "Abdominal Wheel"
+    },
+    {
+      "code": "znllq",
+      "name": "Resistance Band"
+    },
+    {
+      "code": "hcj",
+      "name": "Rowing Mchine"
+    },
+    {
+      "code": "zncyq",
+      "name": "Smart Oral Irrigator"
+    },
+    {
+      "code": "xlt",
+      "name": "Heart Rate Sticker"
+    },
+    {
+      "code": "yoga_mat",
+      "name": "Yoga Mat"
+    },
+    {
+      "code": "znmzj",
+      "name": "Beauty Mirror"
+    },
+    {
+      "code": "zfs",
+      "name": "Straight Hair Comb"
+    },
+    {
+      "code": "acc_ctrl_cam",
+      "name": "access control camera"
+    },
+    {
+      "code": "bjsxj",
+      "name": "Spotlight Alarm Camera"
+    },
+    {
+      "code": "camera",
+      "name": "Smart Camera"
+    },
+    {
+      "code": "cdsxj",
+      "name": "Plugged_in Camera"
+    },
+    {
+      "code": "cwsxj",
+      "name": "Pet Camera"
+    },
+    {
+      "code": "dmsxj",
+      "name": "Multi-Lens Camera Solution"
+    },
+    {
+      "code": "doorbell",
+      "name": "Smart Doorbell"
+    },
+    {
+      "code": "fkj",
+      "name": "Visitor machine"
+    },
+    {
+      "code": "ipcsxj1",
+      "name": "Dash Cam Solution(4G)"
+    },
+    {
+      "code": "ipc_fishtv",
+      "name": "Fish TV"
+    },
+    {
+      "code": "jz",
+      "name": "Base Station"
+    },
+    {
+      "code": "ksdjml",
+      "name": "Video Doorbell"
+    },
+    {
+      "code": "ksdjsxj",
+      "name": "Two-way Video Camera"
+    },
+    {
+      "code": "kshgh",
+      "name": "Visual personal care"
+    },
+    {
+      "code": "mobilecam",
+      "name": "Mobile Camera/Camera"
+    },
+    {
+      "code": "smsxj",
+      "name": "Multi Lens Camera"
+    },
+    {
+      "code": "sp",
+      "name": "Smart Camera/Camera"
+    },
+    {
+      "code": "sxj4g",
+      "name": "4G Camera"
+    },
+    {
+      "code": "videolock",
+      "name": "videolock"
+    },
+    {
+      "code": "znwnsxj",
+      "name": "Baby Monitor"
+    },
+    {
+      "code": "dmsxj4g",
+      "name": "Multi-Lens Camera(4G)"
+    },
+    {
+      "code": "jtmspro",
+      "name": "Residential Lock PRO"
+    },
+    {
+      "code": "photolock",
+      "name": "real-time video lock"
+    },
+    {
+      "code": "ms",
+      "name": "Residential Lock"
+    },
+    {
+      "code": "ydsxj4gpet",
+      "name": "4G Pet Action Camera"
+    },
+    {
+      "code": "gyms",
+      "name": "Business Lock"
+    },
+    {
+      "code": "hotelms",
+      "name": "Hotel Lock"
+    },
+    {
+      "code": "bxx",
+      "name": "safe"
+    },
+    {
+      "code": "trailcam",
+      "name": "Trail Camera"
+    },
+    {
+      "code": "xcjly",
+      "name": "Car Recorder"
+    },
+    {
+      "code": "znmj",
+      "name": "Access Control"
+    },
+    {
+      "code": "pettv",
+      "name": "Bird Watching TV"
+    },
+    {
+      "code": "ipc_petdoor",
+      "name": "ipc Pet Door"
+    },
+    {
+      "code": "ipc_planttv",
+      "name": "Plant TV"
+    },
+    {
+      "code": "ipc_reptiletv",
+      "name": "Reptile TV"
+    },
+    {
+      "code": "ms_category",
+      "name": "DoorLock Accessories"
+    },
+    {
+      "code": "nvr",
+      "name": "NVR"
+    },
+    {
+      "code": "sp_wnq",
+      "name": "Smart Bird Feeder Camera"
+    },
+    {
+      "code": "video_Gateway",
+      "name": "Video Gateway"
+    },
+    {
+      "code": "mk",
+      "name": "Gating Lock"
+    },
+    {
+      "code": "small_lock",
+      "name": "Small Lock"
+    },
+    {
+      "code": "jtmsbh",
+      "name": "Smart Lock（Stand by）"
+    },
+    {
+      "code": "aihz",
+      "name": "AI Box"
+    },
+    {
+      "code": "dghsxj",
+      "name": "LE Camera"
+    },
+    {
+      "code": "wgsxj",
+      "name": "Gateway Camera"
+    },
+    {
+      "code": "smartms_pro",
+      "name": "SmartLock Pro"
+    },
+    {
+      "code": "sp_Gsmart",
+      "name": "Smart Camera_Gsmart exclusive"
+    },
+    {
+      "code": "jisentest",
+      "name": "jisentest"
+    },
+    {
+      "code": "jzq",
+      "name": "Fitting"
+    },
+    {
+      "code": "lyqwg",
+      "name": "Router"
+    },
+    {
+      "code": "bywg",
+      "name": "IoT Edge Gateway"
+    },
+    {
+      "code": "dgnzk",
+      "name": "Tuya Multi-function Controller"
+    },
+    {
+      "code": "videohub",
+      "name": "videohub"
+    },
+    {
+      "code": "wg2",
+      "name": "Gateway"
+    },
+    {
+      "code": "wgb",
+      "name": "Small Gateway"
+    },
+    {
+      "code": "xnwg",
+      "name": "Virtual Gateway"
+    },
+    {
+      "code": "alexa_built_in",
+      "name": "alexa_built_in"
+    },
+    {
+      "code": "alexa_yyxxj",
+      "name": "diffuser with alexa built-in"
+    },
+    {
+      "code": "qtyycp",
+      "name": "Voice Gateway Composite Solution"
+    },
+    {
+      "code": "zhzkp",
+      "name": "Smart Panel"
+    },
+    {
+      "code": "zxgjcp",
+      "name": "Xiao Zhi Ai Product"
+    },
+    {
+      "code": "alexa_yywg",
+      "name": "Gateway with Alexa"
+    },
+    {
+      "code": "dlq",
+      "name": "Circuit breaker"
+    },
+    {
+      "code": "gfyhq",
+      "name": "PV optimizer"
+    },
+    {
+      "code": "glyhq",
+      "name": "Optimizer"
+    },
+    {
+      "code": "LCRV",
+      "name": "Control Valve"
+    },
+    {
+      "code": "ldjcq",
+      "name": "Leakage Detector"
+    },
+    {
+      "code": "MPPT",
+      "name": "MPPT controller"
+    },
+    {
+      "code": "nyp",
+      "name": "Energy Monitor"
+    },
+    {
+      "code": "xnyjcn",
+      "name": "New Energy And Energy Storage"
+    },
+    {
+      "code": "znpdu",
+      "name": "Smart PDU"
+    },
+    {
+      "code": "wxnbq",
+      "name": "Micro Inverter"
+    },
+    {
+      "code": "zcnbq",
+      "name": "String Inverter"
+    },
+    {
+      "code": "ats",
+      "name": "ATS Auto Transfer Switch"
+    },
+    {
+      "code": "ups",
+      "name": "UPS"
+    },
+    {
+      "code": "cjq",
+      "name": "data concentrator"
+    },
+    {
+      "code": "byq",
+      "name": "Transformer"
+    },
+    {
+      "code": "qccdz",
+      "name": "EV charger"
+    },
+    {
+      "code": "bxsdy",
+      "name": "Portable power station"
+    },
+    {
+      "code": "ddzxccdz",
+      "name": "Moped Charging Station"
+    },
+    {
+      "code": "zndb",
+      "name": "Smart Electric Meter"
+    },
+    {
+      "code": "znsb",
+      "name": "Smart Water Meter"
+    },
+    {
+      "code": "znqb",
+      "name": "Smart gas meter"
+    },
+    {
+      "code": "znnbq",
+      "name": "smart inverter"
+    },
+    {
+      "code": "bpq",
+      "name": "Frequency converter"
+    },
+    {
+      "code": "cnsb",
+      "name": "Photovoltaic energy storage"
+    },
+    {
+      "code": "fsjl",
+      "name": "Anemometer"
+    },
+    {
+      "code": "znjdq",
+      "name": "Relay"
+    },
+    {
+      "code": "slj",
+      "name": "Water Flowmeter"
+    },
+    {
+      "code": "cnwg",
+      "name": "Energy Gateway"
+    },
+    {
+      "code": "dcc",
+      "name": "Battery Management System"
+    },
+    {
+      "code": "ems",
+      "name": "Energy Management System"
+    },
+    {
+      "code": "gywg",
+      "name": "Industrial gateway"
+    },
+    {
+      "code": "BTU",
+      "name": "DTU"
+    },
+    {
+      "code": "ggq",
+      "name": "Irrigators"
+    },
+    {
+      "code": "sfkzq",
+      "name": "Water valve controller"
+    },
+    {
+      "code": "yxzdcgq",
+      "name": "Vibration Sensor"
+    },
+    {
+      "code": "dlcgq",
+      "name": "Current Sensor"
+    },
+    {
+      "code": "wsdcgq",
+      "name": "T&H Sensor"
+    },
+    {
+      "code": "cocgq",
+      "name": "Co Sensor"
+    },
+    {
+      "code": "co2cgq",
+      "name": "Co2 Sensor"
+    },
+    {
+      "code": "pm25cgq",
+      "name": "Pm25 Sensor"
+    },
+    {
+      "code": "ptlkzq",
+      "name": "PTL Controller"
+    },
+    {
+      "code": "ptl",
+      "name": "Pick To Light"
+    },
+    {
+      "code": "gyxhd",
+      "name": "Industrial Signal Lamp"
+    },
+    {
+      "code": "anzsd",
+      "name": "Button Indicator"
+    },
+    {
+      "code": "ysjsb",
+      "name": "Printer Device"
+    },
+    {
+      "code": "xgjcsb",
+      "name": "Solder paste testing equipment"
+    },
+    {
+      "code": "tpjsb",
+      "name": "Mounter Device"
+    },
+    {
+      "code": "hlhsb",
+      "name": "Welding Device"
+    },
+    {
+      "code": "lwcsy",
+      "name": "Furnace temperature tester"
+    },
+    {
+      "code": "aoisb",
+      "name": "AOI Device"
+    },
+    {
+      "code": "cnc",
+      "name": "CNC"
+    },
+    {
+      "code": "zsj",
+      "name": "Injection Machine"
+    },
+    {
+      "code": "ddc",
+      "name": "DDC"
+    },
+    {
+      "code": "dmq",
+      "name": "code reader"
+    },
+    {
+      "code": "AGV",
+      "name": "Automated Guided Vehicle"
+    },
+    {
+      "code": "znlj",
+      "name": "Intelligent material rack"
+    },
+    {
+      "code": "pcs",
+      "name": "Power Conversion System"
+    },
+    {
+      "code": "yqcgq",
+      "name": "Oxygen Sensor"
+    },
+    {
+      "code": "ylcgq",
+      "name": "Pressure Sensor"
+    },
+    {
+      "code": "iomk",
+      "name": "IO Module"
+    },
+    {
+      "code": "gylsj",
+      "name": "Cooling Water Machine"
+    },
+    {
+      "code": "pfj",
+      "name": "Fertilizer Machine"
+    },
+    {
+      "code": "phcgq",
+      "name": "Ph Sensor"
+    },
+    {
+      "code": "yxywcgq",
+      "name": "Liquid Level Sensor"
+    },
+    {
+      "code": "eccgq",
+      "name": "Ec Sensor"
+    },
+    {
+      "code": "admk",
+      "name": "AD Module"
+    },
+    {
+      "code": "ktykq",
+      "name": "Air Conditioning Controller"
+    },
+    {
+      "code": "plc",
+      "name": "plc"
+    },
+    {
+      "code": "bjyy",
+      "name": "Background music"
+    },
+    {
+      "code": "ds",
+      "name": "TV"
+    },
+    {
+      "code": "dzbp",
+      "name": "Signage"
+    },
+    {
+      "code": "dzrl",
+      "name": "E-calendar"
+    },
+    {
+      "code": "ej",
+      "name": "Headphone"
+    },
+    {
+      "code": "mj",
+      "name": "Smart Mirror"
+    },
+    {
+      "code": "pbjqr",
+      "name": "Movable Companion Robot"
+    },
+    {
+      "code": "tyy",
+      "name": "Projector"
+    },
+    {
+      "code": "wj",
+      "name": "AI Toy"
+    },
+    {
+      "code": "hbydj",
+      "name": "Book Reader"
+    },
+    {
+      "code": "jp",
+      "name": "Keyboard"
+    },
+    {
+      "code": "yj",
+      "name": "Glasses"
+    },
+    {
+      "code": "fyq",
+      "name": "Translator"
+    },
+    {
+      "code": "mkf",
+      "name": "Microphone"
+    },
+    {
+      "code": "zkp",
+      "name": "Smart Console Center"
+    },
+    {
+      "code": "lyk",
+      "name": "AI Note"
+    },
+    {
+      "code": "wpyyzk",
+      "name": "Voice panel"
+    },
+    {
+      "code": "zwyyzs",
+      "name": "Chinese AI voice products"
+    },
+    {
+      "code": "gsj",
+      "name": "Story Machine"
+    },
+    {
+      "code": "3ddyj",
+      "name": "3D Printer"
+    },
+    {
+      "code": "bxdyj",
+      "name": "Portable Printer"
+    },
+    {
+      "code": "etqcc",
+      "name": "Children Ride_on Car"
+    },
+    {
+      "code": "loudspeaker_box",
+      "name": "Speaker"
+    },
+    {
+      "code": "twdyj",
+      "name": "Digital printer"
+    },
+    {
+      "code": "wjxc",
+      "name": "toy car"
+    },
+    {
+      "code": "yxk",
+      "name": "Cloud Frame"
+    },
+    {
+      "code": "cryp",
+      "name": "Vibrator Egg"
+    },
+    {
+      "code": "jdh",
+      "name": "set-top box"
+    },
+    {
+      "code": "gfang",
+      "name": "Amplifier"
+    },
+    {
+      "code": "fzcw",
+      "name": "Robotic Pet"
+    },
+    {
+      "code": "aiczwg",
+      "name": "Cat.4 AI Gateway"
+    },
+    {
+      "code": "aidwq",
+      "name": "AI pet tracker"
+    },
+    {
+      "code": "aixcjly",
+      "name": "AI Dashcam"
+    },
+    {
+      "code": "BatteryPack",
+      "name": "E-bike battery pack"
+    },
+    {
+      "code": "bbyx",
+      "name": "Receive payment speaker"
+    },
+    {
+      "code": "cqb",
+      "name": "Gonfiatore"
+    },
+    {
+      "code": "cxdlb",
+      "name": "Travel Power Meter"
+    },
+    {
+      "code": "ddly",
+      "name": "Electric wheelchair"
+    },
+    {
+      "code": "ddzxc",
+      "name": "Electric Bicycle"
+    },
+    {
+      "code": "ddzxcdc",
+      "name": "Electric Bike Battery"
+    },
+    {
+      "code": "fusion_positioning",
+      "name": "Indoor and outdoor fusion locator"
+    },
+    {
+      "code": "hwcxcp",
+      "name": "Outdoor Product"
+    },
+    {
+      "code": "hwzys",
+      "name": "Outdoor Sunshade"
+    },
+    {
+      "code": "lndbc",
+      "name": "Elderly Mobility Scooter"
+    },
+    {
+      "code": "lyyb",
+      "name": "Positioning Instrument"
+    },
+    {
+      "code": "mobility_robot",
+      "name": "mobility_robot"
+    },
+    {
+      "code": "phc",
+      "name": "Hoverboards"
+    },
+    {
+      "code": "qdxc",
+      "name": "ATV"
+    },
+    {
+      "code": "shg",
+      "name": "Vending cabinet"
+    },
+    {
+      "code": "sswifi",
+      "name": "Portable  Wi-Fi"
+    },
+    {
+      "code": "tk",
+      "name": "Helmet"
+    },
+    {
+      "code": "wls",
+      "name": "Smart Logistics Lock (Master lock)"
+    },
+    {
+      "code": "wls_sub",
+      "name": "Smart Logistics Lock (Sub lock)"
+    },
+    {
+      "code": "yymtc",
+      "name": "Off Road Motorcycle"
+    },
+    {
+      "code": "zfhz",
+      "name": "Payment box"
+    },
+    {
+      "code": "znxdc",
+      "name": "Smart Snowmobile"
+    },
+    {
+      "code": "znxlx",
+      "name": "Smart Luggage"
+    },
+    {
+      "code": "Others",
+      "name": "Others"
+    },
+    {
+      "code": "hbc",
+      "name": "Scooter"
+    },
+    {
+      "code": "tracker",
+      "name": "Tracker"
+    },
+    {
+      "code": "znddc",
+      "name": "Intelligent electric vehicle（BLE）"
+    },
+    {
+      "code": "fdq",
+      "name": "Burglar Alarm"
+    },
+    {
+      "code": "access_point",
+      "name": "Access Point"
+    },
+    {
+      "code": "balryxt",
+      "name": "BA Cold and heat source system"
+    },
+    {
+      "code": "bazmxt",
+      "name": "BA Lighting System"
+    },
+    {
+      "code": "baznsb",
+      "name": "BA Intelligent water meter"
+    },
+    {
+      "code": "byqnhxt",
+      "name": "BA Energy consumption system"
+    },
+    {
+      "code": "dayu",
+      "name": "dayu"
+    },
+    {
+      "code": "dmjkzq",
+      "name": "Multi Door Game"
+    },
+    {
+      "code": "dtxt",
+      "name": "BA Elevator system"
+    },
+    {
+      "code": "dzy",
+      "name": "E-cigarette"
+    },
+    {
+      "code": "gpsxt",
+      "name": "Water supply and drainage system"
+    },
+    {
+      "code": "gsxt",
+      "name": "BA Water supply system"
+    },
+    {
+      "code": "hjjc",
+      "name": "Community environmental testing"
+    },
+    {
+      "code": "hjjkxt",
+      "name": "BA Environmental Monitoring System"
+    },
+    {
+      "code": "ktxt",
+      "name": "Combined air-conditioning wind cabinet"
+    },
+    {
+      "code": "lryxt",
+      "name": "Cold and heat source system"
+    },
+    {
+      "code": "rba",
+      "name": "Building Automation"
+    },
+    {
+      "code": "rfid_reader",
+      "name": "RFID Reader"
+    },
+    {
+      "code": "spfxt",
+      "name": "BA ventilation system"
+    },
+    {
+      "code": "sssbxt",
+      "name": "BA Facilities and equipment system"
+    },
+    {
+      "code": "wyzxj",
+      "name": "Property Center Machine"
+    },
+    {
+      "code": "xfxt",
+      "name": "BA Fire fighting system"
+    },
+    {
+      "code": "xjq",
+      "name": "Inspection device"
+    },
+    {
+      "code": "zhxf",
+      "name": "Intelligent fire fighting"
+    },
+    {
+      "code": "znwg",
+      "name": "Smart temperature"
+    },
+    {
+      "code": "znyg",
+      "name": "Smoke Sensor"
+    },
+    {
+      "code": "znylbsq",
+      "name": "Pressure Transmitters"
+    },
+    {
+      "code": "zyktxt",
+      "name": "BA Air conditioning system"
+    },
+    {
+      "code": "zjq",
+      "name": "Repeater"
+    },
+    {
+      "code": "hymp",
+      "name": "Conference Reservation Tablet"
+    },
+    {
+      "code": "qtsdk",
+      "name": "Others (SDK)"
+    },
+    {
+      "code": "wnykq",
+      "name": "Universal Remote Control"
+    },
+    {
+      "code": "zntc",
+      "name": "Smart Parking"
+    },
+    {
+      "code": "zntk",
+      "name": "Smart Elevator"
+    },
+    {
+      "code": "wfcon",
+      "name": "Connector"
+    },
+    {
+      "code": "znyxss",
+      "name": "Smart Speaker"
+    },
+    {
+      "code": "qt",
+      "name": "Others"
+    },
+    {
+      "code": "aihardware",
+      "name": "AI Device"
+    },
+    {
+      "code": "vocie_platform_only",
+      "name": "Voice Platform"
+    }
+  ],
+  "success": true,
+  "t": 1794054420820,
+  "tid": "redacted"
+}
